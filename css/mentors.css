@@ -1,0 +1,342 @@
+/* =========================
+   HERO
+========================= */
+
+.cd-mentor-hero {
+  padding: 90px 8% 60px;
+  text-align: center;
+  background:
+    linear-gradient(
+      180deg,
+      #f7f9ff 0%,
+      #f8fbff 100%
+    );
+}
+
+.cd-mentor-hero h1 {
+  font-size: 60px;
+  max-width: 900px;
+  margin: auto;
+  margin-bottom: 24px;
+  line-height: 1.1;
+  letter-spacing: -2px;
+}
+
+.cd-mentor-hero p {
+  max-width: 700px;
+  margin: auto;
+  color: #667085;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+
+/* =========================
+   FEATURED MENTOR
+========================= */
+
+.cd-featured-mentor {
+  padding: 0 8% 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.cd-feature-card {
+  max-width: 1100px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 50px;
+  background: white;
+  border: 1px solid #e7eaf4;
+  border-radius: 32px;
+  box-shadow:
+    0 20px 50px rgba(0,0,0,.05);
+}
+
+.cd-feature-avatar {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 32px;
+  font-size: 42px;
+  font-weight: 900;
+  color: white;
+  background:
+    linear-gradient(
+      135deg,
+      #4169ff,
+      #7b61ff
+    );
+}
+
+.cd-feature-content {
+  flex: 1;
+}
+
+.cd-feature-role {
+  display: inline-block;
+  padding: 10px 18px;
+  margin-bottom: 18px;
+  border-radius: 999px;
+  background: #eef3ff;
+  color: #4169ff;
+  font-weight: 800;
+}
+
+.cd-feature-content h2 {
+  font-size: 44px;
+  margin-bottom: 18px;
+}
+
+.cd-feature-content p {
+  line-height: 1.8;
+  color: #667085;
+  margin-bottom: 30px;
+}
+
+
+/* Statistik */
+
+.cd-feature-meta {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.cd-feature-meta div {
+  min-width: 130px;
+  padding: 18px;
+  text-align: center;
+  background: #f8fbff;
+  border-radius: 18px;
+}
+
+.cd-feature-meta strong {
+  display: block;
+  font-size: 34px;
+  color: #4169ff;
+}
+
+.cd-feature-meta span {
+  color: #667085;
+  font-size: 14px;
+}
+
+
+/* Skill */
+
+.cd-feature-tags {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.cd-feature-tags span {
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: #f3f6ff;
+  font-weight: 700;
+}
+
+
+/* Tombol */
+
+.cd-feature-btn {
+  display: inline-block;
+  padding: 16px 28px;
+  text-decoration: none;
+  border-radius: 18px;
+  color: white;
+  font-weight: 800;
+  background:
+    linear-gradient(
+      135deg,
+      #4169ff,
+      #7b61ff
+    );
+}
+
+.cd-feature-btn:hover {
+  transform: translateY(-2px);
+}
+
+
+/* =========================
+   LIST MENTOR
+========================= */
+
+.cd-mentor-list {
+  max-width: 1300px;
+  padding: 30px 8% 90px;
+  margin: auto;
+}
+
+.cd-section-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.cd-section-header h2 {
+  font-size: 44px;
+  margin-bottom: 12px;
+}
+
+.cd-section-header p {
+  color: #667085;
+}
+
+.cd-mentor-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(
+      auto-fit,
+      minmax(320px, 1fr)
+    );
+  gap: 28px;
+}
+
+
+/* Card Mentor */
+
+.cd-mentor-card {
+  padding: 34px;
+  background: white;
+  border-radius: 30px;
+  border: 1px solid #e6eaf2;
+  transition: .3s;
+  box-shadow:
+    0 8px 20px rgba(0,0,0,.03);
+}
+
+.cd-mentor-card:hover {
+  transform:
+    translateY(-8px);
+  box-shadow:
+    0 18px 40px
+    rgba(37,99,235,.12);
+}
+
+.cd-mentor-avatar {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  border-radius: 20px;
+  font-size: 28px;
+  font-weight: 900;
+  color: white;
+  background:
+    linear-gradient(
+      135deg,
+      #4169ff,
+      #7c5cff
+    );
+}
+
+.cd-mentor-card h3 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.cd-mentor-card span {
+  display: inline-block;
+  padding: 10px 16px;
+  margin-bottom: 16px;
+  border-radius: 999px;
+  background: #eef3ff;
+  color: #4169ff;
+}
+
+.cd-mentor-card p {
+  line-height: 1.8;
+
+  color: #667085;
+}
+
+
+/* =========================
+   CTA
+========================= */
+
+.cd-mentor-cta {
+  padding: 100px 8%;
+  text-align: center;
+
+  background:
+    linear-gradient(
+      180deg,
+      #ffffff,
+      #f8fbff
+    );
+}
+
+.cd-mentor-cta h2 {
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
+.cd-mentor-cta p {
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 40px;
+  color: #667085;
+}
+
+.cd-mentor-cta a {
+  display: inline-block;
+  padding: 18px 34px;
+  text-decoration: none;
+  border-radius: 18px;
+  color: white;
+  font-weight: 800;
+  background:
+    linear-gradient(
+      135deg,
+      #4169ff,
+      #7c5cff
+    );
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width:768px) {
+  .cd-mentor-hero h1 {
+    font-size: 40px;
+  }
+  .cd-feature-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .cd-feature-content h2 {
+    font-size: 34px;
+  }
+  .cd-mentor-card h3 {
+    font-size: 28px;
+  }
+  .cd-mentor-cta h2 {
+    font-size: 34px;
+  }
+}
+
+@media (max-width:480px) {
+  .cd-mentor-hero h1 {
+    font-size: 30px;
+  }
+  .cd-feature-content h2 {
+    font-size: 28px;
+  }
+  .cd-feature-meta {
+    justify-content: center;
+  }
+}
