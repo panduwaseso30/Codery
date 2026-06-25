@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Codery - Daftar</title>
+    <title>Codery - Masuk</title>
 
     <link rel="stylesheet" href="../css/global.css" />
     <link rel="stylesheet" href="../css/navbar-footer.css" />
@@ -34,36 +34,26 @@
       <section class="cd-auth-left">
         <div class="cd-auth-brand">
           <div class="cd-auth-logo">&lt;/&gt;</div>
-          <h1>Mulai perjalanan belajarmu di Codery.</h1>
+          <h1>Selamat datang kembali di Codery.</h1>
           <p>
-            Buat akun untuk mengakses kelas, mengikuti learning path, dan
-            membangun portfolio teknologi secara bertahap.
+            Masuk untuk melanjutkan kelas, melihat progres belajar, dan
+            melanjutkan perjalanan membangun skill teknologi.
           </p>
         </div>
 
         <div class="cd-auth-benefits">
-          <span>✓ Learning path terarah</span>
-          <span>✓ Project nyata</span>
-          <span>✓ Mentor berpengalaman</span>
-          <span>✓ Portfolio siap ditampilkan</span>
+          <span>✓ Akses kelasmu</span>
+          <span>✓ Lanjutkan progres</span>
+          <span>✓ Ikuti learning path</span>
+          <span>✓ Bangun portfolio</span>
         </div>
       </section>
 
       <section class="cd-auth-card">
-        <form class="cd-auth-form active" id="registerForm">
+        <form class="cd-auth-form active" id="loginForm">
           <div class="cd-form-header">
-            <h2>Buat Akun Baru</h2>
-            <p>Daftar untuk mulai mengikuti kelas di Codery.</p>
-          </div>
-
-          <div class="cd-form-group">
-            <label for="fullName">Username</label>
-            <input
-              id="fullName"
-              type="text"
-              placeholder="Masukkan username"
-              required
-            />
+            <h2>Masuk Akun</h2>
+            <p>Lanjutkan belajar dan akses kelas yang kamu ikuti.</p>
           </div>
 
           <div class="cd-form-group">
@@ -77,54 +67,32 @@
           </div>
 
           <div class="cd-form-group">
-            <label for="password">Password</label>
+            <label for="loginPassword">Password</label>
 
             <div class="cd-password-field">
               <input
-                id="password"
+                id="loginPassword"
                 type="password"
-                placeholder="Password"
+                placeholder="Masukkan password"
                 required
               />
               <button
                 type="button"
                 class="cd-toggle-password"
-                data-target="password"
+                data-target="loginPassword"
               >
                 👁
               </button>
             </div>
 
-            <p class="cd-password-hint" id="passwordHint"></p>
+            <p class="cd-password-hint" id="loginPasswordHint"></p>
           </div>
 
-          <div class="cd-form-group">
-            <label for="confirmPassword">Confirm Password</label>
-
-            <div class="cd-password-field">
-              <input
-                id="confirmPassword"
-                type="password"
-                placeholder="Ulangi password"
-                required
-              />
-              <button
-                type="button"
-                class="cd-toggle-password"
-                data-target="confirmPassword"
-              >
-                👁
-              </button>
-            </div>
-
-            <p class="cd-password-hint" id="confirmPasswordHint"></p>
-          </div>
-
-          <button type="submit" class="cd-auth-submit">Buat Akun</button>
+          <button type="submit" class="cd-auth-submit">Masuk</button>
 
           <p class="cd-auth-switch">
-            Sudah punya akun?
-            <a href="login.html">Masuk</a>
+            Belum punya akun?
+            <a href="register.html">Daftar sekarang</a>
           </p>
         </form>
       </section>
